@@ -1,0 +1,29 @@
+.plumbing-services {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.plumbing-services h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.service-category {
+    margin-bottom: 20px;
+}
+
+.service-category h2 {
+    color: #34495e;
+}
+
+.service-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-category ul li {
+    background: #ecf0f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
