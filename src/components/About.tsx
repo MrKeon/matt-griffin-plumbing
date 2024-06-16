@@ -4,7 +4,7 @@ const About: React.FC = () => {
   return (
     <section id="about">
       <h2>About Us</h2>
-      <p>Matt Griffin Plumbing has been proudly serving the community for over 5 years...</p>
+      <p>Matt Griffin has been proudly serving the community plumbing needs for years...</p>
     </section>
   );
 };

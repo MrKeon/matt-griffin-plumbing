@@ -8,12 +8,21 @@
     color: #2c3e50;
 }
 
+.service-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
 .service-category {
-    margin-bottom: 20px;
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .service-category h2 {
     color: #34495e;
+    margin-bottom: 10px;
 }
 
 .service-category ul {
@@ -22,8 +31,9 @@
 }
 
 .service-category ul li {
-    background: #ecf0f1;
+    background: #fff;
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

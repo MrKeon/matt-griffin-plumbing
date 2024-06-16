@@ -54,18 +54,20 @@ const PlumbingServices = () => {
     ];
 
     return (
-        <div className="plumbing-services">
+        <div className="plumbing-services" id="plumbingservices">
             <h1>Plumbing Services</h1>
-            {services.map((service, index) => (
-                <div key={index} className="service-category">
-                    <h2>{service.category}</h2>
-                    <ul>
-                        {service.items.map((item, idx) => (
-                            <li key={idx}>{item}</li>
-                        ))}
-                    </ul>
-                </div>
-            ))}
+            <div className="service-categories">
+                {services.map((service, index) => (
+                    <div key={index} className="service-category">
+                        <h2>{service.category}</h2>
+                        <ul>
+                            {service.items.map((item, idx) => (
+                                <li key={idx}>{item}</li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };
