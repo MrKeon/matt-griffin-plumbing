@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/matt-griffin-plumbing/static/css/main.ff101f90.css",
+    "main.js": "/matt-griffin-plumbing/static/js/main.62085525.js",
+    "static/js/453.44278877.chunk.js": "/matt-griffin-plumbing/static/js/453.44278877.chunk.js",
+    "index.html": "/matt-griffin-plumbing/index.html",
+    "main.ff101f90.css.map": "/matt-griffin-plumbing/static/css/main.ff101f90.css.map",
+    "main.62085525.js.map": "/matt-griffin-plumbing/static/js/main.62085525.js.map",
+    "453.44278877.chunk.js.map": "/matt-griffin-plumbing/static/js/453.44278877.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff101f90.css",
+    "static/js/main.62085525.js"
+  ]
+}
